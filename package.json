@@ -1,0 +1,25 @@
+{
+  "name": "@csod/serverless-cloudwatch-retention",
+  "version": "1.0.0",
+  "description": "Serverless plugin to allow us to configure the retention policy, etc. for cloudwatch logs",
+  "main": "plugin.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "serverless",
+    "cloudwatch",
+    "retention",
+    "plugin"
+  ],
+  "author": "Brian Armstrong <barmstrong@csod.com>",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.3",
+    "sinon": "^7.3.1"
+  },
+  "files": [
+    "plugin.js"
+  ]
+}
