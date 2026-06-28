@@ -23,7 +23,7 @@
  *
  * retainLogs is used to tell CloudWatch whether or not to retain the logs on stack delete. If true, logs are retained on stack delete.
  * if we are retaining logs on delete, we don't want to continue attempting to manage them after our initial deploy.
- * this plugin will remove the logs and their references once they have been deploy, and set the DeletionPolicy properly
+ * this plugin will remove the logs and their references once they have been deployed, and set the DeletionPolicy properly
  */
 class CloudwatchPolicyPlugin {
     constructor(serverless) {
